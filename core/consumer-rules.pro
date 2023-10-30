@@ -11,6 +11,11 @@
  # is used.
  -keep,allowobfuscation,allowshrinking class kotlin.coroutines.Continuation
 
+ -dontwarn okhttp3.internal.platform.**
+ -dontwarn org.conscrypt.**
+ -dontwarn org.bouncycastle.**
+ -dontwarn org.openjsse.**
+
 
 ##---------------Begin: proguard configuration for Gson ----------
 # Gson uses generic type information stored in a class file when working with fields. Proguard
