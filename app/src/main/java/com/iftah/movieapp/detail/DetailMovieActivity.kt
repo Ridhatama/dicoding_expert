@@ -12,6 +12,7 @@ import com.iftah.movieapp.R
 import com.iftah.movieapp.databinding.ActivityDetailBinding
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
+@Suppress("DEPRECATION")
 class DetailMovieActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailBinding
