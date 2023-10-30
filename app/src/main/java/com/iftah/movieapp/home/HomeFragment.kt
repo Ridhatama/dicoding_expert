@@ -53,6 +53,9 @@ class HomeFragment : Fragment() {
                             binding.viewError.root.visibility = View.VISIBLE
                             binding.viewError.tvError.text =
                                 movie.message ?: getString(R.string.something_wrong)
+                            binding.tvMovies.visibility = View.GONE
+                            binding.tvPopular.visibility = View.GONE
+                            binding.tvTopRated.visibility = View.GONE
                         }
                     }
                 }
