@@ -15,6 +15,7 @@
  -dontwarn org.conscrypt.**
  -dontwarn org.bouncycastle.**
  -dontwarn org.openjsse.**
+ -ignorewarnings
 
 
 ##---------------Begin: proguard configuration for Gson ----------
