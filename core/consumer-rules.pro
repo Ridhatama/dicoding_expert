@@ -16,7 +16,7 @@
  -dontwarn org.bouncycastle.**
  -dontwarn org.openjsse.**
  -ignorewarnings
-
+-dontwarn java.lang.invoke.StringConcatFactory
 
 ##---------------Begin: proguard configuration for Gson ----------
 # Gson uses generic type information stored in a class file when working with fields. Proguard
